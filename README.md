@@ -8,6 +8,7 @@ based on ubuntu (complete size ~ 480mb)
 
 - clone the rep
 - cd into the rep
+- open the "app.py" and insert you tibber api token
 - run "docker build -t ubuntu ."
 - run "docker run --name server -d -p9946:9945 ubuntu"
 - browse to "localhost:9946"
